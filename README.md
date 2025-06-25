@@ -1,50 +1,56 @@
-# Welcome to your Expo app 👋
+# 💚 CALMEE – Your Mental Health Companion
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+> A cross-platform mobile app built with **React Native (Expo)** to support mental wellness through **daily mood tracking**, **AI-powered self-care routines**, **journaling**, and **anonymous peer sharing**.
 
-## Get started
+---
 
-1. Install dependencies
+## 🧠 Overview
 
-   ```bash
-   npm install
-   ```
+Mental health challenges are rising, especially among students and youth. **Calmee** offers a personal wellness space that allows users to:
 
-2. Start the app
+- Check in with their mood
+- Receive AI-generated calming suggestions
+- Track emotional trends
+- Share feelings anonymously with peers
+- Practice guided self-care routines
+- Stay motivated through gamified progress tracking
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🚀 Tech Stack
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+| Layer           | Technologies Used                                |
+|----------------|---------------------------------------------------|
+| Frontend        | React Native (Expo), JavaScript (ES6+)           |
+| UI/Styling      | React Native Paper, Tailwind RN                  |
+| Backend (API)   | Node.js + Express.js (optional)                  |
+| Database        | Firebase Firestore / MongoDB Atlas               |
+| Authentication  | Firebase Authentication                          |
+| AI Integration  | OpenAI API (via Axios)                           |
+| Charts          | react-native-chart-kit                           |
+| Notifications   | Expo Notifications + FCM                         |
+| Version Control | Git + GitHub                                     |
+| Design          | Figma                                            |
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 📱 Key Features
 
-When you're ready, run:
+- ✅ Daily Mood Check-Ins (Emoji/Slider)
+- 📖 Mood Journaling (Private + Shareable)
+- 🤖 GPT-based Activity & Self-Care Suggestions
+- 📊 Mood Trends (Weekly/Monthly Charts)
+- 🧘 Self-Care Toolkit (Breathing, Gratitude, etc.)
+- 🔔 Daily Notifications for Mental Check-In
+- 🧑‍🤝‍🧑 Anonymous Community Wall
+- 🏆 Gamification (Streaks, Achievements)
+- 🔐 Secure Authentication with Firebase
+
+---
+
+## ▶️ Getting Started
+
+### 1. Install dependencies
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+npm install
