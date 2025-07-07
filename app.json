@@ -1,8 +1,8 @@
 {
   "expo": {
     "name": "calmee-app",
-    "owner": "lalitha_divakarla",
     "slug": "calmee-app",
+    "owner": "amishasingh",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/welcome.png",
@@ -45,15 +45,6 @@
     ],
     "experiments": {
       "typedRoutes": true
-    },
-    "extra": {
-      "router": {},
-      "eas": {
-        "projectId": "dbbed57e-fddc-4cde-af28-3f7900d752a6"
-      }
-    },
-    "updates": {
-      "url": "https://u.expo.dev/dbbed57e-fddc-4cde-af28-3f7900d752a6"
     }
   }
 }
